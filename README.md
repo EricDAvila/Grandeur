@@ -13,5 +13,3 @@ Character Sprite
 
 1.3 - 
 Moving Sprite
-
-HAHAHAH
