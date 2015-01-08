@@ -7,7 +7,8 @@
     <uses-sdk
         android:minSdkVersion="13"
         android:targetSdkVersion="19" />
-
+<uses-permission android:name="android.permission.VIDEO" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -27,6 +28,22 @@
             android:name=".Map1"
             android:screenOrientation="landscape"
             android:label="@string/title_activity_map1" >
+        </activity>
+        <activity
+            android:name=".Bad"
+            android:screenOrientation="landscape"
+            android:label="@string/title_activity_bad"
+            android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name=".Good"
+            android:screenOrientation="landscape"
+            android:label="@string/title_activity_good"
+            android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:launchMode="singleTask" >
         </activity>
     </application>
 
